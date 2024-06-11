@@ -771,7 +771,6 @@ const Map<CscCountry, int> Countries = {
 };
 
 class CountryPickCountry extends StatefulWidget {
-  ///CSC Picker Constructor
   const CountryPickCountry({
     Key? key,
     this.onCountryChanged,
@@ -822,7 +821,6 @@ class CountryPickCountry extends StatefulWidget {
   // title widget
   final Widget? title;
 
-  ///Parameters to change style of CSC Picker
   final TextStyle? selectedItemStyle, dropdownHeadingStyle, dropdownItemStyle;
   final BoxDecoration? dropdownDecoration, disabledDropdownDecoration;
   final bool showStates, showCities;
